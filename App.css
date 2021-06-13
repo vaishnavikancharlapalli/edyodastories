@@ -1,0 +1,156 @@
+
+body{
+background-color:whitesmoke;
+}
+.topbar
+{
+  width:100%;
+  padding:15px;
+  margin:0px;
+  box-shadow:2px 4px 4px #eee;
+  position:fixed;
+  background-color:white;
+  display:flex;
+  justify-content:space-evenly;
+  z-index :2;
+}
+.headed
+{
+font-size:30px;
+letter-spacing:1px;
+font-family: 'Raleway',sans-serif;
+text-shadow:2px 2px 3px black;
+color: #0084ff;
+margin:0px;
+padding:0px;
+}
+.pstory
+{
+  font-size:18px;
+  margin:0px;
+  padding:0px;
+  color:black;
+  font-weight:400;
+ font-style:italic;
+  text-shadow:none;
+  
+}
+.options
+{
+border:0;
+width:200px;
+font-size:18px;
+font-weight:400;
+opacity:0.7;
+text-transform:capitalize;
+}
+.item
+{
+  font-size:16px;
+  padding:10px;
+  outline:none;
+  opacity:0.6;
+  font-weight:400;
+
+}
+.patged
+{
+  font-size:18px;
+  margin:0px;
+
+ opacity:0.4;
+
+}
+.btn
+{
+  background-color:#0084ff;
+  font-size:13px;
+  color:white;
+  border-radius:25px;
+  width:150px;
+  height:40px;
+  outline:none;
+  box-shadow:2px 4px 4px #eee;
+  border:0;
+}
+.filter
+{
+  color:#0084ff;
+  font-size:20px;
+
+}
+.filterpart
+{
+padding-top:10%;
+margin-left:10%;
+z-index:1;
+}
+.filtertext
+{
+  font-size:16px;
+  font-weight:500;
+  opacity:0.7;
+  color:black;
+  margin-left:10px;
+}
+
+.filterbtn
+{
+  padding:10px;
+  border-radius:25px;
+  background-color:transparent;
+  color:#0084ff;
+  border:0;
+  border:1px solid #0084ff;
+  margin-right:10px;
+  margin-bottom:15px;
+  letter-spacing: 1px;
+  font-size:13px;
+}
+.filterspace
+{
+  margin-top:25px;
+}
+.cardimage
+{
+  width:250px;
+  height:250px;
+}
+.cardtitle
+{
+  font-size:18px;
+  margin-left:10px;
+}
+.card
+{
+  width:250px;
+  height:700px;
+  box-shadow:4px 6px 6px #eee;
+  margin-left:30px;
+  margin-bottom:30px;
+  background-color:white;
+  overflow:hidden;
+
+}
+.blogs
+{
+  margin-top:3%;
+  display:flex;
+  flex-wrap:wrap;
+ margin-left:5%;
+ z-index:0;
+}
+.cardauthor
+{
+  font-size:20px;
+  color:#0084ff;
+  margin-left:10px;
+}
+.cardesc
+{
+font-size:16px;
+opacity:0.6;
+margin-left:10px;
+overflow: hidden;
+margin-bottom:10px;
+}
